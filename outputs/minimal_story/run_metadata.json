@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-06-15T16:17:48.995974+00:00",
+  "writer_base_url": "https://maas-api.cn-huabei-1.xf-yun.com/v2",
+  "writer_model": "xopqwen36v35b",
+  "embedding_base_url": "https://openrouter.ai/api/v1",
+  "embedding_model": "openai/text-embedding-3-small",
+  "embedding_dimension": 1536,
+  "story_path": "outputs\\minimal_story\\short_story.md",
+  "config_path": "minimal_story_config.json",
+  "prompt": "You are PlotWeave, a plot-loom fiction agent.\nWrite one complete Simplified Chinese short story.\n\nUser preferences:\n- Title hint: 雨夜旧书店\n- Genre: 悬疑奇幻，带一点温暖\n- Reader preference: 喜欢像剧情织布机一样层层递进，有物件线索、人物秘密、结尾钩子\n- Reference mode: 借鉴经典悬疑奇幻的结构、气氛和节奏，不模仿任何特定在世作者文风，不复刻已有作品剧情\n- Must include: 雨夜, 旧书店或古董店, 能修补记忆的物件, 主角发现自己与秘密有关, 结尾留下悬念\n- Length: 900-1400 Chinese characters\n\nRules:\n1. Output only the story, no explanation.\n2. Use a Markdown H1 title on the first line.\n3. Do not imitate any living author's style.\n4. You may learn from broad public-domain or genre-level techniques: suspense pacing, object clue, layered reveal, warm emotional resolution.\n5. The story must feel like a loom weaving clues: each paragraph should add one thread, and the final paragraph should tie them together while leaving a hook."
+}

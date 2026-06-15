@@ -1,0 +1,21 @@
+[project]
+name = "plotweave"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "fastapi>=0.117.1",
+    "langchain[openai]>=0.3.27",
+    "langchain-openai>=0.3.33",
+    "langgraph>=0.6.7",
+    "langsmith>=0.4.31",
+    "networkx>=3.5",
+    "openai>=1.109.1",
+    "python-dotenv>=1.1.1",
+    "pyyaml>=6.0.3",
+    "qdrant-client>=1.15.1",
+    "uuid>=1.30",
+    "uvicorn[standard]>=0.37.0",
+]

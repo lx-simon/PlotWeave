@@ -1,0 +1,32 @@
+﻿{
+  "writer": {
+    "base_url": "https://maas-api.cn-huabei-1.xf-yun.com/v2",
+    "model": "xopqwen36v35b",
+    "api_key_env": "WRITER_API_KEY"
+  },
+  "embedding": {
+    "base_url": "https://openrouter.ai/api/v1",
+    "model": "openai/text-embedding-3-small",
+    "dimension": 1536,
+    "api_key_env": "VECTOR_API_KEY"
+  },
+  "story_request": {
+    "title_hint": "雨夜旧书店",
+    "genre": "悬疑奇幻，带一点温暖",
+    "reader_preference": "喜欢像剧情织布机一样层层递进，有物件线索、人物秘密、结尾钩子",
+    "reference_mode": "借鉴经典悬疑奇幻的结构、气氛和节奏，不模仿任何特定在世作者文风，不复刻已有作品剧情",
+    "must_include": [
+      "雨夜",
+      "旧书店或古董店",
+      "能修补记忆的物件",
+      "主角发现自己与秘密有关",
+      "结尾留下悬念"
+    ],
+    "length_chinese_chars": "900-1400"
+  },
+  "output": {
+    "directory": "outputs/minimal_story",
+    "story_file": "short_story.md",
+    "metadata_file": "run_metadata.json"
+  }
+}
