@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-06-18T15:19:59.406692+00:00",
+  "reference_dir": "reference_novels",
+  "query": "雨夜旧书店，记忆修补物件，失踪亲人，悬疑奇幻，温暖但留下悬念",
+  "chunk_size": 420,
+  "chunk_overlap": 80,
+  "top_k": 3,
+  "chunk_count": 2,
+  "writer_model": "xopqwen36v35b",
+  "embedding_model": "openai/text-embedding-3-small",
+  "embedding_dimension": 1536,
+  "story_path": "outputs\\reference_story\\story_from_references.md",
+  "retrieved_path": "outputs\\reference_story\\retrieved_chunks.json"
+}

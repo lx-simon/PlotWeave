@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-06-18T15:35:35.934247+00:00",
+  "reference_dir": "reference_novels",
+  "reference_files": [
+    "sample_fog_bell.md"
+  ],
+  "chunk_size": 900,
+  "chunk_overlap": 120,
+  "chunk_count": 1,
+  "writer_model": "xopqwen36v35b",
+  "profile_path": "outputs\\reference_story\\reference_knowledge_profile.md",
+  "chunks": [
+    {
+      "source": "sample_fog_bell.md",
+      "chunk_index": 0,
+      "chars": 595
+    }
+  ]
+}

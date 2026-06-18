@@ -1,0 +1,24 @@
+﻿{
+  "reference_mode": "hybrid",
+  "modes": {
+    "compressed": "只使用自动压缩后的指导性文字，适合长篇参考和稳定复现。",
+    "full": "直接使用参考小说全文，适合短参考文本或想强依赖整本上下文。",
+    "hybrid": "同时使用压缩指导文字和检索片段，推荐默认模式。"
+  },
+  "full_text_char_limit": 12000,
+  "retrieval": {
+    "query": "雨夜旧书店，记忆修补物件，失踪亲人，悬疑奇幻，温暖但留下悬念",
+    "chunk_size": 420,
+    "chunk_overlap": 80,
+    "top_k": 3
+  },
+  "generation": {
+    "length_chinese_chars": "1000-1600",
+    "instruction": "写一篇新的原创中文短篇。参考小说只能作为全程指导：借鉴结构、节奏、意象组织、悬念编织和情绪推进，不复制原文句子，不复刻人物与剧情。"
+  },
+  "paths": {
+    "reference_dir": "reference_novels",
+    "knowledge_profile": "outputs/reference_story/reference_knowledge_profile.md",
+    "output_dir": "outputs/reference_story"
+  }
+}
